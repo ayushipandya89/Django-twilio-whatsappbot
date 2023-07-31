@@ -1,0 +1,60 @@
+# Ignore Python virtual environment files
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore Django-specific files
+*.sqlite3
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore static and media files (should be served by a web server)
+/staticfiles/
+/media/
+
+# Ignore Twilio credentials file (if you are using environment variables, this is optional)
+.twilio-credentials
+
+# Ignore secret keys and sensitive information (modify this according to your needs)
+settings/secret_key.py
+
+# Ignore generated HTML and compiled JavaScript files
+*.html
+*.js
+*.js.map
+
+# Ignore compiled CSS files
+*.css
+*.css.map
+
+# Ignore environment-specific settings files (optional, if you use separate settings files)
+/settings/development.py
+/settings/production.py
+
+# Ignore database migration files (optional, if you use separate migrations folder)
+/migrations/
+
+# Ignore coverage reports
+.coverage
+
+# Ignore any other temporary or generated files/directories
+tmp/
+*.bak
+*.swp
+*.~lock.*
+
+# Ignore any other files specific to your project or development environment
+# Add lines below this comment as needed
+twillio_env
